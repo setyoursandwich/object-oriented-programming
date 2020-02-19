@@ -1,0 +1,10 @@
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\obj\Debug\netcoreapp3.1\Labo1oef3.AssemblyInfoInputs.cache
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\obj\Debug\netcoreapp3.1\Labo1oef3.AssemblyInfo.cs
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.exe
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.deps.json
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.runtimeconfig.json
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.runtimeconfig.dev.json
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.dll
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\bin\Debug\netcoreapp3.1\Labo1oef3.pdb
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\obj\Debug\netcoreapp3.1\Labo1oef3.dll
+C:\Users\Genscom\source\repos\Labo1oef3\Labo1oef3\obj\Debug\netcoreapp3.1\Labo1oef3.pdb

@@ -1,0 +1,10 @@
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.exe
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.deps.json
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.runtimeconfig.json
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.runtimeconfig.dev.json
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.dll
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\bin\Debug\netcoreapp3.1\Labo2Oef7.pdb
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\obj\Debug\netcoreapp3.1\Labo2Oef7.AssemblyInfoInputs.cache
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\obj\Debug\netcoreapp3.1\Labo2Oef7.AssemblyInfo.cs
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\obj\Debug\netcoreapp3.1\Labo2Oef7.dll
+C:\Users\Genscom\source\repos\Labo2Oef7\Labo2Oef7\obj\Debug\netcoreapp3.1\Labo2Oef7.pdb

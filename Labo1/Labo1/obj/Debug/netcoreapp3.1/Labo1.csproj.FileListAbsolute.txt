@@ -1,0 +1,11 @@
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.exe
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.deps.json
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.runtimeconfig.json
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.runtimeconfig.dev.json
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.dll
+C:\Users\Genscom\source\repos\Labo1\Labo1\bin\Debug\netcoreapp3.1\Labo1.pdb
+C:\Users\Genscom\source\repos\Labo1\Labo1\obj\Debug\netcoreapp3.1\Labo1.csprojAssemblyReference.cache
+C:\Users\Genscom\source\repos\Labo1\Labo1\obj\Debug\netcoreapp3.1\Labo1.AssemblyInfoInputs.cache
+C:\Users\Genscom\source\repos\Labo1\Labo1\obj\Debug\netcoreapp3.1\Labo1.AssemblyInfo.cs
+C:\Users\Genscom\source\repos\Labo1\Labo1\obj\Debug\netcoreapp3.1\Labo1.dll
+C:\Users\Genscom\source\repos\Labo1\Labo1\obj\Debug\netcoreapp3.1\Labo1.pdb

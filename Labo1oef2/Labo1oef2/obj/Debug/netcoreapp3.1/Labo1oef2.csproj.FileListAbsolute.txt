@@ -1,0 +1,11 @@
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.exe
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.deps.json
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.runtimeconfig.json
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.runtimeconfig.dev.json
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.dll
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\bin\Debug\netcoreapp3.1\Labo1oef2.pdb
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\obj\Debug\netcoreapp3.1\Labo1oef2.csprojAssemblyReference.cache
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\obj\Debug\netcoreapp3.1\Labo1oef2.AssemblyInfoInputs.cache
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\obj\Debug\netcoreapp3.1\Labo1oef2.AssemblyInfo.cs
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\obj\Debug\netcoreapp3.1\Labo1oef2.dll
+C:\Users\Genscom\source\repos\Labo1oef2\Labo1oef2\obj\Debug\netcoreapp3.1\Labo1oef2.pdb
