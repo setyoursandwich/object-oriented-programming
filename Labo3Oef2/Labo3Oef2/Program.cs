@@ -10,27 +10,7 @@ namespace Labo3Oef2
 			{
                 Persoon gebruiker = new Persoon("Kevin", new DateTime(2003, 02, 18));
                 DateTime vandaag = DateTime.Now;
-                /*int jaarVerschil = vandaag.Year - gebruiker.Birthday.Year;
-                bool meerderjarig = true;
-                if (jaarVerschil < 18 ) {
-                    meerderjarig = false;
-                } else if (jaarVerschil == 18) {
-                    int maandVerschil = vandaag.Month - gebruiker.Birthday.Month;
-                    if (maandVerschil < 0)
-                    {
-                        meerderjarig = false;
-                    }
-                    else if( maandVerschil == 0 ){
-                        if ( vandaag.Day < gebruiker.Birthday.Day ) {
-                            meerderjarig = false;
-                        }
-                    }
-                }
-                if (meerderjarig == false)
-                {
-                    throw new Exception("Gebruiker is geen 18 jaar");
-                }
-                */
+                //if the user's birthday is more recent than today minus 18 years throw an exception
                 if ( vandaag.AddYears( -18 ) < gebruiker.Birthday ) {
                     throw new Exception("Gebruiker geen 18 jaar");
                 }
