@@ -8,9 +8,9 @@ namespace Labo3Oef2
         {
 			try
 			{
-                Persoon gebruiker = new Persoon("Kevin", new DateTime(2002, 02, 18));
+                Persoon gebruiker = new Persoon("Kevin", new DateTime(2003, 02, 18));
                 DateTime vandaag = DateTime.Now;
-                int jaarVerschil = vandaag.Year - gebruiker.Birthday.Year;
+                /*int jaarVerschil = vandaag.Year - gebruiker.Birthday.Year;
                 bool meerderjarig = true;
                 if (jaarVerschil < 18 ) {
                     meerderjarig = false;
@@ -26,10 +26,15 @@ namespace Labo3Oef2
                         }
                     }
                 }
-
-                if ( meerderjarig == false ) {
+                if (meerderjarig == false)
+                {
                     throw new Exception("Gebruiker is geen 18 jaar");
                 }
+                */
+                if ( vandaag.AddYears( -18 ) < gebruiker.Birthday ) {
+                    throw new Exception("Gebruiker geen 18 jaar");
+                }
+                Console.WriteLine("Gebruiker is meerderjarig");
             }
 			catch (Exception ex)
 			{
