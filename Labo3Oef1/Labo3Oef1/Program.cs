@@ -17,7 +17,6 @@ namespace Labo3Oef1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Geef een getal in");
             //Hou bij hoeveel waarde we opgevraagd hebben
             int counter = 1;
             List<int> ingevoerdeWaarden = new List<int>(3);
@@ -25,6 +24,7 @@ namespace Labo3Oef1
             do {
                 try
                 {
+                    Console.WriteLine("Geef een getal in");
                     //Lees de waarde en tracht deze te parsen en asign ze aan de variable ingevoerde getal 
                     int ingevoerdGetal = int.Parse(Console.ReadLine());
                     //voeg de waarde toe aan de lijst van ingevoerde getallen
@@ -38,10 +38,16 @@ namespace Labo3Oef1
                     //code wordt ongeacht het exception type uitgevoerd
                     string message;
                     //wordt uitegevoerd afhankelijk van het type exception
-                    switch ( ex.ToString() ) {
-                        case "FormatException": message = "Je mag enkel cijfers gebruiken"; break;
-                        case "OverflowException": message = "Je getal is te groot"; break;
-                        default: message = "er is iets mis gegaan"; break;
+                    if (ex is FormatException)
+                    {
+                        message = "Je mag enkel cijfers gebruiken";
+                    }
+                    else if (ex is OverflowException)
+                    {
+                        message = "Je getal is te groot";
+                    }
+                    else {
+                        message = "er is iets mis gegaan";
                     }
                     //code wordt ongeacht het exception type uitgevoerd
                     Console.WriteLine( message );
