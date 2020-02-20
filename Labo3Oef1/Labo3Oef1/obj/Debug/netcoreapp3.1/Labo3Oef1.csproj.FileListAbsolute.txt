@@ -20,3 +20,5 @@ C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\ob
 C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\obj\Debug\netcoreapp3.1\Labo3Oef1.AssemblyInfo.cs
 C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\obj\Debug\netcoreapp3.1\Labo3Oef1.dll
 C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\obj\Debug\netcoreapp3.1\Labo3Oef1.pdb
+C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Genscom\source\repos\Object Oriented Programming\Labo3Oef1\Labo3Oef1\obj\Debug\netcoreapp3.1\Labo3Oef1.csproj.CopyComplete

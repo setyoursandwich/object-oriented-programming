@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Serialization;
+using System;
 using System.Collections.Generic;
 
 /*
@@ -22,31 +23,21 @@ namespace Labo3Oef1
             List<int> ingevoerdeWaarden = new List<int>(3);
             
             do {
-                try
-                {
+                SafeExecutor( ()=> {
                     Console.WriteLine("Geef een getal in");
-                    //Lees de waarde en tracht deze te parsen en asign ze aan de variable ingevoerde getal 
+                    //Lees de waarde en tracht deze te parsen en asign ze aan de variable ingevoerde getal
+                    //SafeExecutor( Func<int> Action = () => { });
                     int ingevoerdGetal = int.Parse(Console.ReadLine());
                     //voeg de waarde toe aan de lijst van ingevoerde getallen
                     ingevoerdeWaarden.Add(ingevoerdGetal);
                     Console.WriteLine($"Je hebt het getal {ingevoerdGetal} ingevoerd");
                     //indien alles succesvol en deze code wordt gehaald voeg 1 toe aan de counter
                     counter++;
-                }
-               
-                catch ( Exception ex ) {
-                    //code wordt ongeacht het exception type uitgevoerd
-                    string message;
-                    //wordt uitegevoerd afhankelijk van het type exception
-                    Console.WriteLine();
-                    switch ( ex.GetType().ToString() ) {
-                        case "System.FormatException": message = "Je mag enkel cijfers gebruiken"; break;
-                        case "System.OverflowException": message = "Je getal is te groot"; break;
-                        default: message = "er is iets mis gegaan"; break;
-                    }
-                    //code wordt ongeacht het exception type uitgevoerd
-                    Console.WriteLine( message );
-                }
+                    //callbacks moeten een return value hebben
+                    return 0;
+                });
+                //ALternatief kan de safeExecutor een 1 of 0 teruggeven ipv void en voeren we deze toe aan de counter
+
             } while (counter <= 3);
             //hou het totaal bij
             int totaal = 0;
@@ -58,6 +49,36 @@ namespace Labo3Oef1
             Console.WriteLine($"De som van al de ingevoerde waarde is: {totaal}");
             //einde van het programma bereikt
             Console.WriteLine("Einde van programma");
+        }
+
+        static private void SafeExecutor(Func<int> action)
+        {
+            //voeg lege string waarde toe omdat visual studio niet begrijpt dat code in try het uitschrijven van message stopt
+            string message = "";
+            try
+            {
+                //indien succesvol voer callback uit en return het resultaat, dit stopt verdere executie van deze methode waardoor finally nooit bereikt wordt
+                action();
+            }
+            //sepcifieke code afhankelijk van exception
+            catch (FormatException fEx)
+            {
+                message = "Je mag enkel cijfers gebruiken";
+            }
+            catch (OverflowException oEx)
+            {
+                message = "Je getal is te groot";
+            }
+            //default exception code indien geen van de vorige catch iteraties opgevangen is
+            catch (Exception ex)
+            {
+                message = "er is iets mis gegaan";
+            }
+            //code wordt voor al de catch statements uitevoerd
+            finally
+            {
+                Console.WriteLine(message);
+            }
         }
     }
 }
