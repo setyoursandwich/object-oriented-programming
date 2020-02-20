@@ -21,7 +21,7 @@ namespace Labo3Oef1
             //Hou bij hoeveel waarde we opgevraagd hebben
             int counter = 1;
             List<int> ingevoerdeWaarden = new List<int>(3);
-            
+
             do {
                 SafeExecutor( ()=> {
                     Console.WriteLine("Geef een getal in");
@@ -53,12 +53,13 @@ namespace Labo3Oef1
 
         static private void SafeExecutor(Func<int> action)
         {
-            //voeg lege string waarde toe omdat visual studio niet begrijpt dat code in try het uitschrijven van message stopt
+            //voeg lege string waarde toe omdat visual studio niet begrijpt message in finally altijd een waarde heeft
             string message = "";
             try
             {
                 //indien succesvol voer callback uit en return het resultaat, dit stopt verdere executie van deze methode waardoor finally nooit bereikt wordt
                 action();
+                return;
             }
             //sepcifieke code afhankelijk van exception
             catch (FormatException fEx)
@@ -74,11 +75,12 @@ namespace Labo3Oef1
             {
                 message = "er is iets mis gegaan";
             }
-            //code wordt voor al de catch statements uitevoerd
-            finally
-            {
-                Console.WriteLine(message);
+            finally {
+                //Doe iets specifiek dat altijd moet gebeuren of dit gelukt is of niet
+                //code geëncapsuleerd in "finally" zal altijd runnen, zelfs na de return statement in try{} (beetje vergelijkbaar met destructors)
             }
+            //code wordt voor al de catch statements uitgevoerd
+            Console.WriteLine(message);
         }
     }
 }
