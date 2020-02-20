@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Genscom\\source\\repos\\Labo3Oef1\\Labo3Oef1\\Labo3Oef1.csproj",
+      "projectUniqueName": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo3Oef1\\Labo3Oef1\\Labo3Oef1.csproj",
       "projectName": "Labo3Oef1",
-      "projectPath": "C:\\Users\\Genscom\\source\\repos\\Labo3Oef1\\Labo3Oef1\\Labo3Oef1.csproj",
+      "projectPath": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo3Oef1\\Labo3Oef1\\Labo3Oef1.csproj",
       "packagesPath": "C:\\Users\\Genscom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Genscom\\source\\repos\\Labo3Oef1\\Labo3Oef1\\obj\\",
+      "outputPath": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo3Oef1\\Labo3Oef1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Genscom\\AppData\\Roaming\\NuGet\\NuGet.Config",

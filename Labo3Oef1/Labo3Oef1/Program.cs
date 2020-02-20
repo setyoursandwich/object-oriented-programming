@@ -21,7 +21,7 @@ namespace Labo3Oef1
             //Hou bij hoeveel waarde we opgevraagd hebben
             int counter = 1;
             List<int> ingevoerdeWaarden = new List<int>(3);
-            //zolang de counter niet hoger is als 3
+            
             do {
                 try
                 {
@@ -33,20 +33,18 @@ namespace Labo3Oef1
                     //indien alles succesvol en deze code wordt gehaald voeg 1 toe aan de counter
                     counter++;
                 }
-                catch (FormatException)
-                {
-                    Console.WriteLine("Je mag enkel cijfers gebruiken");
-                }
-                catch (OverflowException)
-                {
-                    Console.WriteLine("Je getal is te groot");
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("er is iets mis gegaan");
-                }
-                finally {
-                
+               
+                catch ( Exception ex ) {
+                    //code wordt ongeacht het exception type uitgevoerd
+                    string message;
+                    //wordt uitegevoerd afhankelijk van het type exception
+                    switch ( ex.ToString() ) {
+                        case "FormatException": message = "Je mag enkel cijfers gebruiken"; break;
+                        case "OverflowException": message = "Je getal is te groot"; break;
+                        default: message = "er is iets mis gegaan"; break;
+                    }
+                    //code wordt ongeacht het exception type uitgevoerd
+                    Console.WriteLine( message );
                 }
             } while (counter <= 3);
             //hou het totaal bij

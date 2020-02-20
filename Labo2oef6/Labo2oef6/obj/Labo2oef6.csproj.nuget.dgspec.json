@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Genscom\\source\\repos\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj": {}
+    "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Genscom\\source\\repos\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj": {
+    "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Genscom\\source\\repos\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj",
+        "projectUniqueName": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj",
         "projectName": "Labo2oef6",
-        "projectPath": "C:\\Users\\Genscom\\source\\repos\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj",
+        "projectPath": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo2oef6\\Labo2oef6\\Labo2oef6.csproj",
         "packagesPath": "C:\\Users\\Genscom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Genscom\\source\\repos\\Labo2oef6\\Labo2oef6\\obj\\",
+        "outputPath": "C:\\Users\\Genscom\\source\\repos\\Object Oriented Programming\\Labo2oef6\\Labo2oef6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Genscom\\AppData\\Roaming\\NuGet\\NuGet.Config",
